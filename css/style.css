@@ -314,34 +314,7 @@ a[href^="http"] {
     position: relative
 }
 
-a[href^="http"]:after {
-    position: absolute;
-    content: "";
-    height: 9px;
-    width: 9px;
-    top: 5px;
-    right: -12px;
-    background: url(../img/external.gif) 0 0 no-repeat
-}
 
-figure a[href^="http"]:after {
-    background: none;
-    display: none
-}
-
-nav a[href^="http"]:after {
-    background: none
-}
-
-nav a[href^="http"]:hover:after {
-    content: "";
-    position: absolute;
-    height: 9px;
-    width: 9px;
-    top: 0.5em;
-    right: 1px;
-    background: url(../img/external.gif) 0 0 no-repeat
-}
 
 .clickable,
 label,
